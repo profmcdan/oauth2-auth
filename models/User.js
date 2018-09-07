@@ -8,6 +8,7 @@ const UserSchema = new Schema({
   googleId: {
     type: String
   },
+  githubId: String,
   email: {
     type: String
   },
